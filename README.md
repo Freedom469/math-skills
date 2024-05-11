@@ -8,7 +8,7 @@ To use the program, compile the source code using the provided Makefile and run 
 
 ```bash
 make
-./programName input.txt
+./program input.txt
 Input File Format
 The input file should contain a list of integers, each on a separate line.
 
@@ -54,7 +54,7 @@ Compile the program using the provided Makefile. Simply run the following comman
 
 make
 
-This will compile the source code and create an executable named programName.
+This will compile the source code and create an executable named program.
 
 ## License
 This program is provided under the MIT License.
