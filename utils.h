@@ -3,7 +3,7 @@
 
 #include <math.h>
 
-void BubbleSort(int arr[], int n);
+void SortInt(int *arr, int len);
 long double Variance(int numbers[], int length, long double average);
 long double StdDeviation(int numbers[], int length, long double average);
 
