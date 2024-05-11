@@ -30,8 +30,6 @@ Verify that the output matches the expected statistical measures for the input d
 
 ## Input Example
 Input:
-
-Copy code
 1
 2
 3
@@ -39,8 +37,6 @@ Copy code
 5
 
 ## Output Example
-Output:
-
 Output:
 Average: 3
 Median: 3
