@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     // checking if the file opening was successfull
     if (file == NULL)
     {
-        printf("Error reading '%s'.");
+        printf("Error reading '%s'.", argv[1]);
         exit(-1);
     }
 
@@ -90,9 +90,9 @@ int main(int argc, char *argv[])
     stdDeviation = sqrt(variance / lineCount);
 
     // printing out the final values
-    printf("Average: %.0Lf\n", ceil(average));
-    printf("Median: %.0Lf\n", round(median));
-    printf("Variance: %.0Lf\n", round(variance / lineCount));
-    printf("Standard Deviation: %.0Lf\n", round(stdDeviation));
+    printf("Average: %.0lf\n", ceil(average));
+    printf("Median: %.0lf\n", round(median));
+    printf("Variance: %.0lf\n", round(variance / lineCount));
+    printf("Standard Deviation: %.0lf\n", round(stdDeviation));
     return 0;
 }
